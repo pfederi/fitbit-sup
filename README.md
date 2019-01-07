@@ -18,4 +18,9 @@ The application uses the Exercise API added in Fitbit OS 3.0 and is based on the
 
 ### Known Issues
 
-### Screenshot
+### Screenshots
+![screenshot](/screenshots/versa-1.png)
+![screenshot](/screenshots/versa-2.png)
+![screenshot](/screenshots/versa-3.png)
+![screenshot](/screenshots/versa-4.png)
+![screenshot](/screenshots/versa-5.png)
