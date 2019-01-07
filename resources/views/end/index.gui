@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="styles.css" />
+
+<svg id="view-end" display="none">
+   <use href="#tile-list" id="1">
+     <var id="peek-enabled" value="0" />
+     <image href="images/bg.png" opacity=".3" />
+    <use href="#tile-list-header" class="tile-list-item header">
+      <text id="lblTitle" class="title">Nice Work!</text>
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <image class="icon" href="images/icons/activetime.png" />
+      <text id="lblActiveTime" class="label" />
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <image class="icon" href="images/icons/distance.png" />
+      <text id="lblDistance" class="label" />
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <image class="icon" href="images/icons/speedavg.png" />
+      <text id="lblSpeedAvg" class="label" />
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <image class="icon" href="images/icons/speedmax.png" />
+      <text id="lblSpeedMax" class="label" />
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <image class="icon" href="images/icons/strokes.png" />
+      <text id="lblSteps" class="label" />
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <image class="icon" href="images/icons/heartrate.png" />
+      <text id="lblHeartRateAvg" class="label" />
+    </use>
+    <use href="#tile-list-item" class="tile-list-item">
+      <image class="icon" href="images/icons/heartrate.png" />
+      <text id="lblHeartRateMax" class="label" />
+    </use>
+    <use href="#tile-list-item" class="tile-list-item footer">
+      <use id="mybutton" href="#square-button" y="0" fill="#FDD303">
+        <set href="#text" attributeName="text-buffer" to="Close" />
+      </use>
+    </use>
+   </use>
+</svg>

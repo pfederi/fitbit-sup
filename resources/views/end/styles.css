@@ -1,0 +1,35 @@
+.tile-list-item {
+  height: 36;
+}
+
+.header {
+  height: 80;
+}
+
+.footer {
+  height: 80;
+}
+
+.tile-list-item text {
+  font-family: System-Regular;
+  fill: "white";
+}
+
+.title {
+  x: 8;
+  y: 40;
+}
+
+#view-end .label {
+  font-size: 26;
+  x: 44;
+  y: $-2;
+  fill: #ffffff;
+}
+
+.icon {
+  x: 8;
+  y: $-16;
+  width:24;
+  height:24;
+}

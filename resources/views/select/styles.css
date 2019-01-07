@@ -1,0 +1,10 @@
+#lblTitle {
+  font-size: 40;
+  font-family: "Colfax-Regular";
+}
+
+.center {
+  x: 50%;
+  y: 100%-20;
+  text-anchor: middle;
+}
