@@ -1,4 +1,3 @@
-=======
 # SUP
 
 Use your Fitbit to track your Stand Up Paddling sessions on the water.
