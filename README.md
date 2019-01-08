@@ -20,8 +20,6 @@ I am using the step detection for counting the strokes. I tested it multiple tim
 - order stats in settings
 
 ## Updates
-### Release 1.3
-
 
 ### Release 1.2
 - added analytics
