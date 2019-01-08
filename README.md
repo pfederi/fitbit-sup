@@ -1,3 +1,5 @@
+The application uses the Exercise API added in Fitbit OS 3.0 and is based on the sdk-exercise by Jon Barlow.
+=======
 # SUP
 
 Use your Fitbit to track your Stand Up Paddling sessions on the water.
@@ -20,6 +22,9 @@ I am using the step detection for counting the strokes. I tested it multiple tim
 - order stats in settings
 
 ## Updates
+### Release 1.2
+- added analytics
+- added possibility to make a donation and to contact the developer in the settings
 
 ### Release 1.1
 - Added Fitibit Ionic Support
