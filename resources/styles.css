@@ -38,20 +38,51 @@ text {
   text-anchor: middle;
 }
 
-.bignumber {
+/* View: Exercise */
+
+.bigest-number {
   font-size: 120;
   font-family: System-Light;
   fill: #FDD303;
-  x: -4;
-  y: 84;
-  height: 110;
-  text-length: 20;
+  x: -1;
+  y: 15%+100;
 }
 
-.label {
-  font-size: 32;
+.bigest-label {
+  font-size: 30;
   fill: #FDD303;
   text-length: 66;
+  y: 15%+135;
+}
+
+.big-number {
+  font-size: 105;
+  font-family: System-Light;
+  fill: #FDD303;
+  x: -1;
+  y: 15%+100;
+}
+
+.big-label {
+  font-size: 30;
+  fill: #FDD303;
+  text-length: 66;
+  y: 15%+135;
+}
+
+.small-number {
+  font-size: 65;
+  font-family: System-Light;
+  fill: #FDD303;
+  height: 60;
+}
+
+.small-label {
+  font-size: 25;
+  fill: #FDD303;
+  text-length: 66;
+  x: 1;
+  y: $-35;
 }
 
 .item .label {
@@ -60,4 +91,12 @@ text {
 
 #subview-hrm .label {
   y: $-80;
+}
+
+.row-1 {
+  y: 30%;
+}
+
+.row-2 {
+  y: 68%;
 }

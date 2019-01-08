@@ -30,7 +30,6 @@ export class ViewExercise extends View {
   lblDistanceUnits = $("#lblDistanceUnits");
   lblActiveTime = $("#lblActiveTime");
   lblSteps = $("#lblSteps");
-  lblCalories = $("#lblCalories");
 
   handlePopupNo = () => {
     this.remove(this.popup);
@@ -132,13 +131,13 @@ export class ViewExercise extends View {
     this.clock = new Clock("#subview-clock", "seconds", this.handleRefresh);
     this.insert(this.clock);
 
-    this.hrm = new HRM("#subview-hrm");
-    this.insert(this.hrm);
-
     this.gps = new GPS("#subview-gps2", this.handleLocationSuccess);
     this.insert(this.gps);
 
     this.cycle = new Cycle(this.elBoxStats);
+
+    this.hrm = new HRM("#subview-hrm");
+    this.insert(this.hrm);
 
     this.btnToggle.addEventListener("click", this.handleToggle);
     this.btnFinish.addEventListener("click", this.handleFinish);
@@ -167,8 +166,6 @@ export class ViewExercise extends View {
       this.lblActiveTime.text = utils.formatActiveTime(exercise.stats.activeTime);
 
       this.lblSteps.text = utils.formatSteps(exercise.stats.steps);
-
-      this.lblCalories.text = utils.formatCalories(exercise.stats.calories);
     }
   }
 
