@@ -1,4 +1,3 @@
-The application uses the Exercise API added in Fitbit OS 3.0 and is based on the sdk-exercise by Jon Barlow.
 =======
 # SUP
 
