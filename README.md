@@ -3,21 +3,17 @@
 Use your Fitbit to track your Stand Up Paddling sessions on the water.
 
 Displays important statistics such as:
-- heart rate,
-- current speed,
-- average speed,
-- max speed,
+- heart rate
+- current speed
+- average speed
+- max speed
 - distance paddled
 - total strokes*
 - total session duration
 
 **Please Note:**
 I am using the step detection for counting the strokes. I tested it multiple times while paddling and I am quite happy with the count.
-<<<<<<< HEAD
 If you find problems or other things, please post add Github issues, or discuss in [this](https://community.fitbit.com/t5/Fitbit-App-Gallery/SUP-Support/m-p/3169975#M7201) forum thread and I will try to fix the issues.
-=======
-If you find problems or other things, please post add Github issues, or discuss in [this](https://community.fitbit.com/t5/Fitbit-App-Gallery/SUP-Support/m-p/3169975#M7201)forum thread and I will try to fix the issues.
->>>>>>> ff5d0f42d4a60807453ffd0ef98eb2819a4e4200
 
 ## Further ideas (Help appreciated)
 - Choose between two stats or one activity per screen in the settings
