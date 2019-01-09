@@ -3,10 +3,10 @@
 Use your Fitbit to track your Stand Up Paddling sessions on the water.
 
 Displays important statistics such as:
-- heart rate,
-- current speed,
-- average speed,
-- max speed,
+- heart rate
+- current speed
+- average speed
+- max speed
 - distance paddled
 - total strokes*
 - total session duration
