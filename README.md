@@ -38,6 +38,7 @@ If you find problems or other things, please post add Github issues, or discuss 
 ### Known Issues
 - When water is on the touch screen there is a chance that the activity is pausing
 - GPS track is not shown in Fitbit activity log.
+- Strokes Number is to big.
 
 ### Screenshots
 ![screenshot](/screenshots/versa-1.png)
