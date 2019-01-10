@@ -22,7 +22,10 @@ If you find problems or other things, please post add Github issues, or discuss 
 - Disable touchscreen while activity is running
 
 ## Updates
-### Release 1.2
+### Release 1.2.1
+Smaller number styles to avoid truncate on large numbers.
+
+### Release 1.2.0
 - added analytics
 - added possibility to make a donation and to contact the developer in the settings
 
