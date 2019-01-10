@@ -85,6 +85,13 @@ text {
   y: $-35;
 }
 
+.end-label {
+  font-size: 23;
+  x: 8;
+  y: $+5;
+  fill: #ffffff;
+}
+
 .item .label {
   y: $-80;
 }

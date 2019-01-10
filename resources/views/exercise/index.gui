@@ -6,29 +6,27 @@
     <use id="subview-clock" href="#subview-clock" />
 
     <svg id="boxStats">
-      <svg class="item" display="none">
+      <svg class="item">
         <text id="lblActiveTime" class="big-number">00000</text>
         <text class="big-label">active time</text>
       </svg>
-      <svg class="item">
+      <svg class="item" display="none">
         <text id="lblSteps" class="small-number row-1">00000</text>
         <text class="small-label">strokes</text>
-        <text id="lblDistance" class="small-number row-2">00000</text>
+        <text id="lblHrm" class="small-number row-2">---</text>
+        <text id="lblHrmUnits" class="small-label">heartrate</text>
+      </svg>
+      <svg class="item" display="none">
+        <text id="lblDistance" class="small-number row-1">00000</text>
         <text id="lblDistanceUnits" class="small-label">distance in km</text>
-      </svg>
-      <svg class="item" display="none">
-        <text id="lblSpeed" class="small-number row-1">00000</text>
+        <text id="lblSpeed" class="small-number row-2">00000</text>
         <text id="lblSpeedUnits" class="small-label">speed km/h</text>/text>
-        <text id="lblSpeedAvg" class="small-number row-2">00000</text>
+      </svg>
+      <svg class="item" display="none">
+        <text id="lblSpeedAvg" class="small-number row-1">00000</text>
         <text id="lblSpeedAvgUnits" class="small-label">speed avg km/h</text>
-      </svg>
-      <svg class="item" display="none">
-        <text id="lblHrm" class="big-number">---</text>
-        <text class="big-label">heart rate</text>
-      </svg>
-      <svg class="item" display="none">
-        <text id="lblSpeedMax" class="big-number">-----</text>
-        <text id="lblSpeedMaxUnits" class="big-label">speed max km/h</text>
+        <text id="lblSpeedMax" class="small-number row-2">-----</text>
+        <text id="lblSpeedMaxUnits" class="small-label">speed max km/h</text>
       </svg>
 
       <rect id="touch" width="100%" height="100%" opacity="0" pointer-events="all" />

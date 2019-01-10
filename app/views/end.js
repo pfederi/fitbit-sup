@@ -42,7 +42,7 @@ export class ViewEnd extends View {
 
     const speedMax = utils.formatSpeed(exercise.stats.speedMax || 0);
     this.lblSpeedMax.text = `max ${speedMax.value} ${speedMax.units}`;
-    
+
     this.lblSteps.text = `${utils.formatSteps(
       exercise.stats.steps || 0
     )}`;

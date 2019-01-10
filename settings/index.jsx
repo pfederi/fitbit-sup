@@ -3,10 +3,10 @@ function mySettings(props) {
     <Page>
       <Section
         title={<Text bold align="left">Donate</Text>}>
-        <Link source="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=patrick@supweather.net&item_name=Fitbit+SUP+App+Donation">
+        <Link source="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4C66E4L5WYXSS&source=url">
           <TextImageRow
             label="PayPal"
-            sublabel="patrick@supweather.net"
+            sublabel="patrick@federi.com"
             icon="https://pfederi.github.io/resources/paypal.png"
           />
         </Link>
