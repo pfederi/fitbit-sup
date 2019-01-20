@@ -52,5 +52,7 @@ Smaller number styles to avoid truncate on large numbers.
 ![screenshot](/screenshots/versa-3.png)
 ![screenshot](/screenshots/versa-4.png)
 ![screenshot](/screenshots/versa-5.png)
+![screenshot](/screenshots/versa-6.png)
+![screenshot](/screenshots/versa-7.png)
 
 The application uses the Exercise API added in Fitbit OS 3.0 and is based on the sdk-exercise by Jon Barlow.
