@@ -16,6 +16,9 @@ I am using the step detection for counting the strokes. I tested it multiple tim
 If you find problems or other things, please post add Github issues, or discuss in [this](https://community.fitbit.com/t5/Fitbit-App-Gallery/SUP-Support/m-p/3169975#M7201) forum thread and I will try to fix the issues.
 
 ## Further ideas (Help appreciated)
+- Average strokes per minute
+- Possibility to set a distance for interval trainings. After n meters the watch vibrates.
+- Setting Interval Training on or off in Settings and on watch.
 - Choose between two stats or one activity per screen in the settings
 - enable or disable stats in settings
 - Order stats in settings
