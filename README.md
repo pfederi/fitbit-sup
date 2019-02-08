@@ -17,7 +17,8 @@ If you find problems or other things, please post add Github issues, or discuss 
 
 ## Further ideas (Help appreciated)
 - Average strokes per minute
-- Possibility to set a distance for interval trainings. After n meters the watch vibrates.
+- Possibility to set a distance (n) for interval trainings. After n meters the watch vibrates.
+- Editing the name of activity in the settings. User can choose between SUP, Kayak, Kanu
 - Setting Interval Training on or off in Settings and on watch.
 - Choose between two stats or one activity per screen in the settings
 - enable or disable stats in settings
@@ -43,8 +44,8 @@ Smaller number styles to avoid truncate on large numbers.
 
 ### Known Issues
 - When water is on the touch screen there is a chance that the activity is pausing
-- GPS track is not shown in Fitbit activity log.
-- Strokes Number is to big.
+- GPS track is not shown in Fitbit activity log
+- Fitbit activity log is showing Aerobic as activity name (Bug reported to fitbit)
 
 ### Versa Screenshots
 ![screenshot](/screenshots/versa-1.png)
