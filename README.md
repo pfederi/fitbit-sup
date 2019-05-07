@@ -26,6 +26,9 @@ If you find problems or other things, please post add Github issues, or discuss 
 - Disable touchscreen while activity is running
 
 ## Updates
+### Release 1.2.2
+Updated to SDK 3.1, small improvements.
+
 ### Release 1.2.1
 Smaller number styles to avoid truncate on large numbers.
 
@@ -65,4 +68,4 @@ Smaller number styles to avoid truncate on large numbers.
 ![screenshot](/screenshots/ionic-6.png)
 ![screenshot](/screenshots/ionic-7.png)
 
-The application uses the Exercise API added in Fitbit OS 3.0 and is based on the sdk-exercise by Jon Barlow.
+The application uses the Exercise API added in Fitbit OS 3.1 and is based on the sdk-exercise by Jon Barlow.
