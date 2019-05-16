@@ -26,6 +26,9 @@ If you find problems or other things, please post add Github issues, or discuss 
 - Disable touchscreen while activity is running
 
 ## Updates
+### Release 1.2.3
+Updated to SDK 3.1.1, added Versa Lite support.
+
 ### Release 1.2.2
 Updated to SDK 3.1, small improvements.
 
