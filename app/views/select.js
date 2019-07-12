@@ -11,7 +11,7 @@ export class ViewSelect extends View {
 
   constructor() {
     this.btnStart = $("#btnStart");
-    this.lblTitle = $("#lblTitle");
+    this.lblTitle = "SUP";
 
     super();
   }

@@ -8,6 +8,7 @@ import * as utils from "../lib/utils";
 import Clock from "../subviews/clock";
 import GPS from "../subviews/gps";
 import HRM from "../subviews/hrm";
+
 import Popup from "../subviews/popup";
 
 const $ = $at("#view-exercise");
@@ -71,9 +72,7 @@ export class ViewExercise extends View {
   handleFinish = () => {
     let popupSettings = {
       title: "End activity?",
-      message: `Are you sure you want to finish this ${
-        config.exerciseType
-      } session?`,
+      message: `Are you sure you want to finish this SUP session?`,
       btnLeftLabel: "Cancel",
       btnLeftCallback: this.handlePopupNo,
       btnRightLabel: "End",

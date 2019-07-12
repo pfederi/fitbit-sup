@@ -26,7 +26,7 @@
     }
   },
   "devDependencies": {
-    "@fitbit/sdk": "^3.1.1",
+    "@fitbit/sdk": "^3.1.2",
     "@fitbit/sdk-cli": "^1.6.0"
   },
   "scripts": {

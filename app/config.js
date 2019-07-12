@@ -1,7 +1,8 @@
-export const exerciseType = "SUP";
+export const exerciseType = "run";
 
 export const exerciseOptions = {
-  gps: true
+  gps: true,
+  disabletouch: true
 };
 
 export const icons = {

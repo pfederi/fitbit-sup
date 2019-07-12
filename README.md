@@ -28,6 +28,11 @@ If you find problems or other things, please post add Github issues, or discuss 
 
 ## Updates
 ### Release 1.2.4
+Smaller font size because the time was cut off when training lasted more than one hour
+Updated to SDK 3.1.2
+Updated lodash to 4.17.13 (Known high severity security vulnerability in older Version)
+
+### Release 1.2.4
 Fixed an issue on the summary screen. The average speed and the max speed didn't had any numbers.
 
 ### Release 1.2.3
