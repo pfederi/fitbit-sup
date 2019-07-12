@@ -27,22 +27,22 @@ If you find problems or other things, please post add Github issues, or discuss 
 - Disable touchscreen while activity is running
 
 ## Updates
-### Release 1.2.4
-Smaller font size because the time was cut off when training lasted more than one hour
-Updated to SDK 3.1.2
-Updated lodash to 4.17.13 (Known high severity security vulnerability in older Version)
+### Release 1.2.5
+- Smaller font size because the time was cut off when training lasted more than one hour
+- Updated to SDK 3.1.2
+- Updated lodash to 4.17.13 (Known high severity security vulnerability in older Version)
 
 ### Release 1.2.4
-Fixed an issue on the summary screen. The average speed and the max speed didn't had any numbers.
+- Fixed an issue on the summary screen. The average speed and the max speed didn't had any numbers.
 
 ### Release 1.2.3
-Updated to SDK 3.1.1, added Versa Lite support.
+- Updated to SDK 3.1.1, added Versa Lite support.
 
 ### Release 1.2.2
-Updated to SDK 3.1, small improvements.
+- Updated to SDK 3.1, small improvements.
 
 ### Release 1.2.1
-Smaller number styles to avoid truncate on large numbers.
+- Smaller number styles to avoid truncate on large numbers.
 
 ### Release 1.2.0
 - added analytics
