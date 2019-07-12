@@ -32,7 +32,7 @@ export class ViewSelect extends View {
   }
 
   onRender() {
-    this.lblTitle.text = config.exerciseName;
+    this.lblTitle.text = config.exerciseType;
   }
 
   onUnmount() {

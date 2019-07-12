@@ -32,20 +32,18 @@ export class ViewEnd extends View {
       exercise.stats.activeTime || 0
     )}`;
 
-    this.lblHeartRateAvg.text = `Ø ${exercise.stats.heartRate
-      .average || 0} bpm`;
-    this.lblHeartRateMax.text = `max ${exercise.stats.heartRate
-      .max || 0} bpm`;
-
-    const speedAvg = utils.formatSpeed(exercise.stats.speedAvg || 0);
-    this.lblSpeedAvg.text = `Ø ${speedAvg.value} ${speedAvg.units}`;
-
-    const speedMax = utils.formatSpeed(exercise.stats.speedMax || 0);
-    this.lblSpeedMax.text = `max ${speedMax.value} ${speedMax.units}`;
-
     this.lblSteps.text = `${utils.formatSteps(
       exercise.stats.steps || 0
     )}`;
+
+    this.lblHeartRateAvg.text = `Ø ${exercise.stats.heartRate.average || 0} bpm`;
+    this.lblHeartRateMax.text = `max ${exercise.stats.heartRate.max || 0} bpm`;
+
+    const speedAvg = utils.formatSpeed(exercise.stats.speed.average || 0);
+    this.lblSpeedAvg.text = `Ø ${speedAvg.value} ${speedAvg.units}`;
+
+    const speedMax = utils.formatSpeed(exercise.stats.speed.max || 0);
+    this.lblSpeedMax.text = `max ${speedMax.value} ${speedMax.units}`;
 
     const distance = utils.formatDistance(exercise.stats.distance || 0);
     this.lblDistance.text = `${distance.value} ${distance.units}`;

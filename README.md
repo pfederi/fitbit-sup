@@ -12,6 +12,7 @@ Displays important statistics such as:
 - total session duration
 
 **Please Note:**
+The exercise name is not shown correctly on the activity screen on the fitbit website. This is a known bug on the Fitbit API.
 I am using the step detection for counting the strokes. I tested it multiple times while paddling and I am quite happy with the count.
 If you find problems or other things, please post add Github issues, or discuss in [this](https://community.fitbit.com/t5/Fitbit-App-Gallery/SUP-Support/m-p/3169975#M7201) forum thread and I will try to fix the issues.
 
@@ -26,6 +27,9 @@ If you find problems or other things, please post add Github issues, or discuss 
 - Disable touchscreen while activity is running
 
 ## Updates
+### Release 1.2.4
+Fixed an issue on the summary screen. The average speed and the max speed didn't had any numbers.
+
 ### Release 1.2.3
 Updated to SDK 3.1.1, added Versa Lite support.
 

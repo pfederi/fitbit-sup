@@ -72,7 +72,7 @@ export class ViewExercise extends View {
     let popupSettings = {
       title: "End activity?",
       message: `Are you sure you want to finish this ${
-        config.exerciseName
+        config.exerciseType
       } session?`,
       btnLeftLabel: "Cancel",
       btnLeftCallback: this.handlePopupNo,
@@ -90,7 +90,7 @@ export class ViewExercise extends View {
 
   handleLocationSuccess = () => {
     utils.show(this.btnToggle);
-    exercise.start(config.exerciseName, config.exerciseOptions);
+    exercise.start(config.exerciseType, config.exerciseOptions);
     this.lblStatus.text = "";
     this.gps.callback = undefined;
   };
