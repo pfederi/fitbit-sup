@@ -12,8 +12,14 @@ Displays important statistics such as:
 - total session duration
 
 **Please Note:**
-The exercise name is not shown correctly on the activity screen on the fitbit website. This is a known bug on the Fitbit API.
+The exercise name is shown as cycling on the activity screen on the fitbit website. This is a known bug on the Fitbit API and will be fixed by Fitbit.
+
+When water is on the touch screen there is a slightly chance that the activity is pausing
+
 I am using the step detection for counting the strokes. I tested it multiple times while paddling and I am quite happy with the count.
+
+Please don't hesitate to contact me with questions or suggestions; but be sure to let me know which watch and software version you are talking about. This app will always be free and Open Source. If you really like my app please consider buying me a coffee (or more likely electronic components). Thanks!
+
 If you find problems or other things, please post add Github issues, or discuss in [this](https://community.fitbit.com/t5/Fitbit-App-Gallery/SUP-Support/m-p/3169975#M7201) forum thread and I will try to fix the issues.
 
 ## Further ideas (Help appreciated)
@@ -27,6 +33,9 @@ If you find problems or other things, please post add Github issues, or discuss 
 - Disable touchscreen while activity is running
 
 ## Updates
+### Release 2.0
+- Added Weather Module; Updated Settings
+
 ### Release 1.2.5
 - Smaller font size because the time was cut off when training lasted more than one hour
 - Updated to SDK 3.1.2
@@ -70,6 +79,7 @@ If you find problems or other things, please post add Github issues, or discuss 
 ![screenshot](/screenshots/versa-5.png)
 ![screenshot](/screenshots/versa-6.png)
 ![screenshot](/screenshots/versa-7.png)
+![screenshot](/screenshots/versa-8.png)
 
 ### Ionic Screenshots
 ![screenshot](/screenshots/ionic-1.png)
@@ -79,5 +89,6 @@ If you find problems or other things, please post add Github issues, or discuss 
 ![screenshot](/screenshots/ionic-5.png)
 ![screenshot](/screenshots/ionic-6.png)
 ![screenshot](/screenshots/ionic-7.png)
+![screenshot](/screenshots/ionic-8.png)
 
-The application uses the Exercise API added in Fitbit OS 3.1 and is based on the sdk-exercise by Jon Barlow.
+The application uses the Exercise API added in Fitbit OS 3.1 and is based on the sdk-exercise by Jon Barlow and the fitbit-weather module by Grégoire Sage
