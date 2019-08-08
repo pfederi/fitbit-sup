@@ -3,6 +3,7 @@ import { Application } from "./lib/view";
 import { ViewEnd } from "./views/end";
 import { ViewExercise } from "./views/exercise";
 import { ViewSelect } from "./views/select";
+import { ViewWeather } from "./views/weather";
 import analytics from "fitbit-google-analytics/app";
 
 analytics.configure({
@@ -10,7 +11,7 @@ analytics.configure({
 })
 
 class MultiScreenApp extends Application {
-  screens = { ViewSelect, ViewExercise, ViewEnd };
+  screens = { ViewSelect, ViewWeather, ViewExercise, ViewEnd };
 }
 
 MultiScreenApp.start("ViewSelect");

@@ -4,6 +4,14 @@
 
   <text id="lblTitle" class="center">SUP</text>
 
+  <use id="btnWeather" href="#combo-button-upper-right" fill="#F8F8FF" shortcut="none">
+    <set href="combo-button-icon" attributeName="href"
+          to="images/icons/btn_weather.png" />
+    <set href="combo-button-icon-press" attributeName="href"
+          to="images/icons/btn_weather.png" />
+    <set href="combo-button-stroke" attributeName="display" to="inline" />
+  </use>
+
   <use id="btnStart" href="#combo-button-lower-right" fill="#FDD303" shortcut="none">
     <set href="combo-button-icon" attributeName="href"
           to="images/icons/btn_combo_play_press_p.png" />

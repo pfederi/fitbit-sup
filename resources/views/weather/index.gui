@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="styles.css" />
+
+<svg id="view-weather" display="none">
+
+  <svg viewport-fill="fb-cyan">
+    <use id="spinner" href="#spinner" />
+  </svg>
+
+  <use id="btnBack" href="#combo-button-upper-right" fill="#ffffff" shortcut="none">
+    <set href="combo-button-icon" attributeName="href"
+          to="images/icons/btn_home.png" />
+    <set href="combo-button-icon-press" attributeName="href"
+          to="images/icons/btn_weather.png" />
+    <set href="combo-button-stroke" attributeName="display" to="inline" />
+  </use>
+  <text id="lblLocation" x="10" y="25" width="70%" fill="white" font-size="20" text-length="60" text-overflow="ellipsis"></text>
+  <text id="lblUvIndex" x="10" y="50" width="80%" fill="white" font-size="20" text-length="20"></text>
+  <svg class="item" x="10" y="0" width="50%">
+    <text id="lblTemperature" class="weather-number" text-length="20"></text>
+    <text id="lblTemperatureLowHigh" class="weather-label" text-length="40"></text>
+  </svg>
+  <svg class="item" x="100%-10" y="0" width="50%">
+    <text id="lblWindSpeed" class="weather-number" text-anchor="end" text-length="20"></text>
+    <text id="lblWindBearing" class="weather-label" text-anchor="end" text-length="20"></text>
+  </svg>
+  <textarea id="lblDescription" x="10" y="185 " width="100%-20" height="60" fill="white" font-size="24" text-overflow="ellipsis"  text-length="200"></textarea>
+</svg>
