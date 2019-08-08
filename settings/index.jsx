@@ -12,10 +12,10 @@ function mySettings(props) {
       <Section
         title={<Text bold align="center">Known issues</Text>}>
         <Text>
-          The exercise name is shown as cycling on the activity screen on the fitbit website. This is a known bug on the Fitbit API.
+          The exercise name is shown as cycling on the activity screen on the fitbit website. This is a known bug on the Fitbit API and will be fixed by Fitbit.
         </Text>
         <Text>
-          When water is on the touch screen there is a chance that the activity is pausing
+          When water is on the touch screen there is a slightly chance that the activity is pausing
         </Text>
       </Section>
       <Section
