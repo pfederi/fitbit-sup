@@ -1,0 +1,12 @@
+#boxStats {
+  x: 8;
+  y: 10%;
+  width: 100%-16;
+  height: 90%;
+}
+
+#view-weather {
+  font-family: "Colfax-Regular";
+}
+
+#spinner { x: 50%-25; y: 50%-25; width: 50; height: 50; fill: fb-white; }

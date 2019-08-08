@@ -85,6 +85,21 @@ text {
   y: $-35;
 }
 
+.weather-number {
+  font-size: 80;
+  font-family: System-Light;
+  fill: #FDD303;
+  x: -1;
+  y: 140;
+}
+
+.weather-label {
+  font-size: 20;
+  fill: #FDD303;
+  x: 1;
+  y: 170;
+}
+
 .end-label {
   font-size: 23;
   x: 8;

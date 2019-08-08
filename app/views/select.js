@@ -11,6 +11,7 @@ export class ViewSelect extends View {
 
   constructor() {
     this.btnStart = $("#btnStart");
+    this.btnWeather = $("#btnWeather");
     this.lblTitle = "SUP";
 
     super();
@@ -20,15 +21,25 @@ export class ViewSelect extends View {
     Application.switchTo("ViewExercise");
   }
 
+  handleWeather = () => {
+    Application.switchTo("ViewWeather");
+  }
+
   handleKeypress = (evt) => {
     if (evt.key === "down") this.handleStart();
+  }
+
+  handleKeypressWeather = (evt) => {
+    if (evt.key === "down") this.handleWeather();
   }
 
   onMount() {
     me.appTimeoutEnabled = false; // Disable timeout
 
     this.btnStart.addEventListener("click", this.handleStart);
+    this.btnWeather.addEventListener("click", this.handleWeather);
     document.addEventListener("keypress", this.handleKeypress);
+    document.addEventListener("keypress", this.handleKeypressWeather);
   }
 
   onRender() {
@@ -37,6 +48,8 @@ export class ViewSelect extends View {
 
   onUnmount() {
     this.btnStart.removeEventListener("click", this.handleStart);
+    this.btnWeather.removeEventListener("click", this.handleWeather);
     document.removeEventListener("keypress", this.handleKeypress);
+    document.removeEventListener("keypress", this.handleKeypressWeather);
   }
 }
