@@ -33,6 +33,9 @@ If you find problems or other things, please post add Github issues, or discuss 
 - Disable touchscreen while activity is running
 
 ## Updates
+### Release 2.1
+- Fixed a bug where the button for the weather didn't work
+
 ### Release 2.0
 - Added Weather Module; Updated Settings
 
