@@ -48,22 +48,25 @@ function mySettings(props) {
       <Section
         title={<Text bold align="center">Build Version and Notes</Text>}>
         <Text>
+          2.1: Fixed a bug where touch didn't work on exercises
+        </Text>
+        <Text>
           2.0: Added Weather Module; Updated Settings
         </Text>
         <Text>
           1.2.5: Smaller font size because the time was cut off when training lasted more than one hour; Updated to SDK 3.1.2; Updated lodash to 4.17.13 (Known high severity security vulnerability in older Version)
         </Text>
         <Text>
-          1.2.4: Fixed an issue on the summary screen. The average speed and the max speed didn't had any numbers.
+          1.2.4: Fixed an issue on the summary screen. The average speed and the max speed didn't had any numbers
         </Text>
         <Text>
-          1.2.3: Updated to SDK 3.1.1, added Versa Lite support.
+          1.2.3: Updated to SDK 3.1.1, added Versa Lite support
         </Text>
          <Text>
-          1.2.2: Updated to SDK 3.1, small improvements.
+          1.2.2: Updated to SDK 3.1, small improvements
         </Text>
         <Text>
-          1.2.1: Smaller number styles to avoid truncate on large numbers.
+          1.2.1: Smaller number styles to avoid truncate on large numbers
         </Text>
         <Text>
           1.2: Added analytics; added possibility to make a donation and to contact the developer in the settings
