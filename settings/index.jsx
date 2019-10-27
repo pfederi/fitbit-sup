@@ -48,7 +48,7 @@ function mySettings(props) {
       <Section
         title={<Text bold align="center">Build Version and Notes</Text>}>
         <Text>
-          2.1: Fixed a bug where touch didn't work on exercises
+          2.0.2: Fixed a bug where touch didn't work on exercises
         </Text>
         <Text>
           2.0: Added Weather Module; Updated Settings

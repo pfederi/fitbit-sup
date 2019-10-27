@@ -33,13 +33,11 @@ If you find problems or other things, please post add Github issues, or discuss 
 - Disable touchscreen while activity is running
 
 ## Updates
-<<<<<<< HEAD
-### Release 2.1
+### Release 2.0.2
 - Fixed a bug where touch didn't work on exercises
-=======
+
 ### Release 2.0.1
 - Fixed an issue where the physical button for the weather didn't work
->>>>>>> 21d8bf4d96386a46d3f6b3a3952d41bb53b0304d
 
 ### Release 2.0
 - Added Weather Module; Updated Settings
