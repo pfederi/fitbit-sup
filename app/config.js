@@ -1,8 +1,7 @@
 export const exerciseType = "cycling";
 
 export const exerciseOptions = {
-  gps: true,
-  disableTouch: true
+  gps: true
 };
 
 export const icons = {
