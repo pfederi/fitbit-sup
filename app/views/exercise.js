@@ -116,6 +116,8 @@ export class ViewExercise extends View {
       case "down":
         if (exercise.state === "started") {
           this.handleToggle();
+        } else {
+          this.handleToggle();
         }
         break;
     }

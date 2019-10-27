@@ -30,7 +30,7 @@ export class ViewSelect extends View {
   }
 
   handleKeypressWeather = (evt) => {
-    if (evt.key === "down") this.handleWeather();
+    if (evt.key === "up") this.handleWeather();
   }
 
   onMount() {
