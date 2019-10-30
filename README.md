@@ -33,6 +33,9 @@ If you find problems or other things, please post add Github issues, or discuss 
 - Disable touchscreen while activity is running
 
 ## Updates
+### Release 2.1
+- Updated to SDK 4.0.1. App ready for Versa 2
+
 ### Release 2.0.2
 - Fixed a bug where touch didn't work on exercises
 
