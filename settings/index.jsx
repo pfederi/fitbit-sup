@@ -48,6 +48,9 @@ function mySettings(props) {
       <Section
         title={<Text bold align="center">Build Version and Notes</Text>}>
         <Text>
+          Release 2.1: Updated to SDK 4.0.1. App ready for Versa 2
+        </Text>
+        <Text>
           2.0.2: Fixed a bug where touch didn't work on exercises
         </Text>
         <Text>
