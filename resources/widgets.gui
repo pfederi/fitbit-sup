@@ -11,6 +11,7 @@
     <link rel="import" href="/mnt/sysassets/widgets/mixed_text_widget.gui" />
     <link rel="import" href="/mnt/sysassets/widgets/tile_list_widget.gui" />
     <link rel="import" href="/mnt/sysassets/widgets/spinner_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/tumblerview_widget.gui" />
 
     <symbol id="subview-popup">
 

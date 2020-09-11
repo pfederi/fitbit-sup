@@ -1,0 +1,94 @@
+<link rel="stylesheet" href="styles.css" />
+
+<svg id="view-maxhr" display="none">
+
+  <svg viewport-fill="fb-cyan">
+    <use id="spinner" href="#spinner" />
+  </svg>
+
+  <use id="btnBack" href="#combo-button-upper-right" fill="#ffffff" shortcut="none">
+    <set href="combo-button-icon" attributeName="href"
+          to="images/icons/btn_home.png" />
+    <set href="combo-button-icon-press" attributeName="href"
+          to="images/icons/btn_home.png" />
+    <set href="combo-button-stroke" attributeName="display" to="inline" />
+  </use>
+  <text x="75%" y="53%" width="70%" fill="white" font-size="20" text-length="60">Max. HR</text>
+  <use id="tumbler" href="#tumblerview">
+    <use id="item0" href="#tumbler-item" class="item">
+      <text id="content">60</text>
+    </use>
+    <use id="item1" href="#tumbler-item" class="item">
+      <text id="content">61</text>
+    </use>
+    <use id="item2" href="#tumbler-item" class="item">
+      <text id="content">62</text>
+    </use>
+    <use id="item3" href="#tumbler-item" class="item">
+      <text id="content">63</text>
+    </use>
+    <use id="item4" href="#tumbler-item" class="item">
+      <text id="content">64</text>
+    </use>
+    <use id="item5" href="#tumbler-item" class="item">
+      <text id="content">65</text>
+    </use>
+    <use id="item6" href="#tumbler-item" class="item">
+      <text id="content">66</text>
+    </use>
+    <use id="item7" href="#tumbler-item" class="item">
+      <text id="content">67</text>
+    </use>
+    <use id="item8" href="#tumbler-item" class="item">
+      <text id="content">68</text>
+    </use>
+    <use id="item9" href="#tumbler-item" class="item">
+      <text id="content">69</text>
+    </use>
+    <use id="item10" href="#tumbler-item" class="item">
+      <text id="content">70</text>
+    </use>
+    <use id="item11" href="#tumbler-item" class="item">
+      <text id="content">71</text>
+    </use>
+    <use id="item12" href="#tumbler-item" class="item">
+      <text id="content">72</text>
+    </use>
+    <use id="item13" href="#tumbler-item" class="item">
+      <text id="content">73</text>
+    </use>
+    <use id="item14" href="#tumbler-item" class="item">
+      <text id="content">74</text>
+    </use>
+    <use id="item15" href="#tumbler-item" class="item">
+      <text id="content">75</text>
+    </use>
+    <use id="item16" href="#tumbler-item" class="item">
+      <text id="content">76</text>
+    </use>
+    <use id="item17" href="#tumbler-item" class="item">
+      <text id="content">77</text>
+    </use>
+    <use id="item18" href="#tumbler-item" class="item">
+      <text id="content">78</text>
+    </use>
+    <use id="item19" href="#tumbler-item" class="item">
+      <text id="content">79</text>
+    </use>
+    <use id="item20" href="#tumbler-item" class="item">
+      <text id="content">80</text>
+    </use>
+    <use id="item21" href="#tumbler-item" class="item">
+      <text id="content">81</text>
+    </use>
+    <use id="item22" href="#tumbler-item" class="item">
+      <text id="content">82</text>
+    </use>
+    <use id="item23" href="#tumbler-item" class="item">
+      <text id="content">83</text>
+    </use>
+    <use id="item24" href="#tumbler-item" class="item">
+      <text id="content">84</text>
+    </use>
+  </use>
+</svg>

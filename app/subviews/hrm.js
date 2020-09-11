@@ -3,9 +3,8 @@ import { BodyPresenceSensor } from "body-presence";
 import { display } from "display";
 import { HeartRateSensor } from "heart-rate";
 import { user } from "user-profile";
-import { vibration } from "haptics";
-
 import { View, $at } from "../lib/view";
+import { vibration } from "haptics";
 
 export default class HRM extends View {
   constructor(parent) {
@@ -39,7 +38,6 @@ export default class HRM extends View {
 
   getZone() {
     return user.heartRateZone(this.hrmSensor.heartRate || 0);
-    vibration.start("ring");
   }
 
   onMount() {

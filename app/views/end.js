@@ -1,5 +1,4 @@
 import exercise from "exercise";
-
 import * as utils from "../lib/utils";
 import { View, $at } from "../lib/view";
 import Clock from "../subviews/clock";

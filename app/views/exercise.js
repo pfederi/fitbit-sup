@@ -1,6 +1,5 @@
 import document from "document";
 import exercise from "exercise";
-
 import * as config from "../config";
 import Cycle from "../lib/cycle"
 import { Application, View, $at } from "../lib/view";

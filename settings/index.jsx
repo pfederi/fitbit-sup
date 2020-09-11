@@ -45,8 +45,10 @@ function mySettings(props) {
           />
         </Link>
       </Section>
-      <Section
-        title={<Text bold align="center">Build Version and Notes</Text>}>
+      <Section title={<Text bold align="center">Build Version and Notes</Text>}>
+        <Text>
+          Release 3.0: Added Max Heart Rate Support
+        </Text>
         <Text>
           Release 2.1: Updated to SDK 4.0.1. App ready for Versa 2
         </Text>

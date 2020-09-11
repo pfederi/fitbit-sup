@@ -1,0 +1,12 @@
+#boxStats {
+  x: 8;
+  y: 10%;
+  width: 100%-16;
+  height: 90%;
+}
+
+#spinner { x: 50%-25; y: 50%-25; width: 50; height: 50; fill: fb-white; }
+
+#tumbler { y: 50%-55; width: 75%; }
+.item { height: 90; }
+.item text { font-size: 80; fill: white; x: 5;  }

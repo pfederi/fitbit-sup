@@ -12,6 +12,7 @@ export class ViewSelect extends View {
   constructor() {
     this.btnStart = $("#btnStart");
     this.btnWeather = $("#btnWeather");
+    this.btnMaxhr = $("#btnMaxhr");
     this.lblTitle = "SUP";
 
     super();
@@ -25,6 +26,10 @@ export class ViewSelect extends View {
     Application.switchTo("ViewWeather");
   }
 
+  handleMaxhr = () => {
+    Application.switchTo("ViewMaxhr");
+  }
+
   handleKeypress = (evt) => {
     if (evt.key === "down") this.handleStart();
   }
@@ -33,13 +38,19 @@ export class ViewSelect extends View {
     if (evt.key === "up") this.handleWeather();
   }
 
+  handleKeypressMaxhr = (evt) => {
+    if (evt.key === "left") this.handleMaxhr();
+  }
+
   onMount() {
     me.appTimeoutEnabled = false; // Disable timeout
 
     this.btnStart.addEventListener("click", this.handleStart);
     this.btnWeather.addEventListener("click", this.handleWeather);
+    this.btnMaxhr.addEventListener("click", this.handleMaxhr);
     document.addEventListener("keypress", this.handleKeypress);
     document.addEventListener("keypress", this.handleKeypressWeather);
+    document.addEventListener("keypress", this.handleKeypressMaxhr);
   }
 
   onRender() {
@@ -49,7 +60,9 @@ export class ViewSelect extends View {
   onUnmount() {
     this.btnStart.removeEventListener("click", this.handleStart);
     this.btnWeather.removeEventListener("click", this.handleWeather);
+    this.btnMaxhr.addEventListener("click", this.handleMaxhr);
     document.removeEventListener("keypress", this.handleKeypress);
     document.removeEventListener("keypress", this.handleKeypressWeather);
+    document.addEventListener("keypress", this.handleKeypressMaxhr);
   }
 }

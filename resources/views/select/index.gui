@@ -19,4 +19,12 @@
           to="images/icons/btn_combo_play_press_p.png" />
     <set href="combo-button-stroke" attributeName="display" to="inline" />
   </use>
+
+  <use id="btnMaxhr" href="#combo-button-lower-left" fill="#F8F8FF" shortcut="none">
+    <set href="combo-button-icon" attributeName="href"
+          to="images/icons/btn_maxhr.png" />
+    <set href="combo-button-icon-press" attributeName="href"
+          to="images/icons/btn_maxhr.png" />
+    <set href="combo-button-stroke" attributeName="display" to="inline" />
+  </use>
 </svg>

@@ -35,9 +35,9 @@
   },
   "dependencies": {
     "fitbit-google-analytics": "^1.2.0",
-    "geo-loc-utils": "0.0.2",
+    "geo-loc-utils": "1.0.2",
     "gulp": "^4.0.2",
-    "gulp-zip": "^5.0.0",
+    "gulp-zip": "^5.0.2",
     "lodash": "^4.17.20",
     "node": "^14.8.0"
   },

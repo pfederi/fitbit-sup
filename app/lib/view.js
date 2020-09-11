@@ -146,6 +146,7 @@ export class Application extends View {
       if (evt.key === "back") app.onKeyBack(evt);
       else if (evt.key === "down") app.onKeyDown(evt);
       else if (evt.key === "up") app.onKeyUp(evt);
+      else if (evt.key === "left") app.onKeyLeft(evt);
     };
   }
 
@@ -159,6 +160,10 @@ export class Application extends View {
 
   onKeyUp(evt) {
     this.screen.onKeyUp(evt);
+  }
+
+  onKeyLeft(evt) {
+    this.screen.onKeyLeft(evt);
   }
 
 }
