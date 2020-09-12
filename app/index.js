@@ -27,4 +27,4 @@ let selectedValue = selectedItem.getElementById("content").text;
 
 console.log(`index: ${selectedIndex} :: value: ${selectedValue}`);
 
-selectedItem.getElementById("content").text = "60";
+selectedItem.getElementById("content").text = "90";
