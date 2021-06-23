@@ -1,6 +1,6 @@
-{
+npm install{
   "fitbit": {
-    "appUUID": "7d4753cc-93f0-4eb4-a532-670d36d914cd",
+    "appUUID": "88608bd0-5109-455e-8e39-f5b3ed3fae66",
     "appType": "app",
     "appDisplayName": "SUP",
     "iconFile": "resources/icon.png",
@@ -15,10 +15,10 @@
       "access_user_profile"
     ],
     "buildTargets": [
-      "meson",
-      "higgs",
       "gemini",
-      "mira"
+      "mira",
+      "atlas",
+      "vulcan"
     ],
     "i18n": {
       "en": {
@@ -27,7 +27,7 @@
     }
   },
   "devDependencies": {
-    "@fitbit/sdk": "^4.1.0",
+    "@fitbit/sdk": "~5.0.0",
     "@fitbit/sdk-cli": "^1.7.3"
   },
   "scripts": {
