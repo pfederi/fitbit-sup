@@ -1,5 +1,5 @@
-**I decided to discontinue the app because I no longer own a Fitbit and, additionally, frequent changes to Fitbit’s codebase made it nearly impossible to maintain.
-**
+## I decided to discontinue the app because I no longer own a Fitbit and, additionally, frequent changes to Fitbit’s codebase made it nearly impossible to maintain.
+
 # SUP
 
 Use your Fitbit to track your Stand Up Paddling sessions on the water.
