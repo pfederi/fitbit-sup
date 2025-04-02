@@ -38,7 +38,7 @@ npm install{
     "geo-loc-utils": "0.0.2",
     "gulp": "^4.0.2",
     "gulp-zip": "^5.0.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "node": "^14.8.0"
   },
   "repository": {
